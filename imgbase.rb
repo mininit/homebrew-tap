@@ -2,7 +2,7 @@ class Imgbase < Formula
   desc "CLI tool to encode images as base64 data URIs"
   homepage "https://github.com/yourusername/imgbase"
   url "https://github.com/mininit/imgbase/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0305e94533f84d050de6ce7b2460d38c3feaf9c79569a1a260d328cae33eb11c"
+  sha256 "a9dbdce1d95d2195061739b4108087dde5f30d4c4c6ec6722a8c0f4c1aa43b45"
 
   depends_on "go" => :build
 
