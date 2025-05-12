@@ -1,6 +1,6 @@
 class Imgbase < Formula
   desc "CLI tool to encode images as base64 data URIs"
-  homepage "https://github.com/yourusername/imgbase"
+  homepage "https://github.com/mininit/imgbase"
   url "https://github.com/mininit/imgbase/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "a9dbdce1d95d2195061739b4108087dde5f30d4c4c6ec6722a8c0f4c1aa43b45"
 
