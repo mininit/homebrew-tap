@@ -1,13 +1,13 @@
 class Imgbase < Formula
   desc "CLI tool to encode images as base64 data URIs"
   homepage "https://github.com/mininit/imgbase"
-  url "https://github.com/mininit/imgbase/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "a9dbdce1d95d2195061739b4108087dde5f30d4c4c6ec6722a8c0f4c1aa43b45"
+  url "https://github.com/mininit/imgbase/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "e64bd9a7420b53637abc348420a180d8be41f7ebb14c828a88c3eb8795324fdf"
 
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w")
+    system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/imgbase"
   end
 
   test do
