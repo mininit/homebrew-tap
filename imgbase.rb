@@ -19,7 +19,7 @@ class Imgbase < Formula
   end
 
   test do
-    # Check that the binary runs and shows usage without args
-    assert_match "Usage", shell_output("#{bin}/imgbase", 1)
+    assert_match "imgbase version #{version}", shell_output("#{bin}/imgbase --version")
   end
+
 end
