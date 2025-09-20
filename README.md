@@ -2,7 +2,7 @@
 
 ## Installation
 
-Install the tap via:
+Install the tap:
 
 ```sh
 brew tap mininit/tap
