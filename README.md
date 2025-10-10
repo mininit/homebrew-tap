@@ -21,4 +21,5 @@ For more information on installing Homebrew https://brew.sh and `brew tap` https
 ```sh
 # Formulae
 brew install mininit/tap/imgbase
+brew install mininit/tap/nav
 ```
