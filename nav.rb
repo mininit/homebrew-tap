@@ -6,11 +6,6 @@ class Nav < Formula
   sha256 "eab0082035de7d386fe53dcd0522255b1a8a839d2b73e35d859c151688de332e"
   license "GPL-3.0-only"
 
-  livecheck do
-    url :stable
-    strategy :github_latest
-  end
-
   head "https://github.com/mininit/nav.git", branch: "main"
 
   depends_on "ncurses"
