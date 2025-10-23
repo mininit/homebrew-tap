@@ -3,7 +3,7 @@ class Nav < Formula
   homepage "https://github.com/mininit/nav"
 
   url "https://github.com/mininit/nav/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "6a4d2b8468219b1efc58b23bd98655115cb4a3ce4c8243bdea469e53313b17d6"
+  sha256 "18fb7dc724b10be7242c07cb740e1a6b6a7e462e2381c0bf330a24c373d5b188"
   license "GPL-3.0-only"
 
   head "https://github.com/mininit/nav.git", branch: "main"
