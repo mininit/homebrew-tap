@@ -9,11 +9,10 @@ class Nav < Formula
   depends_on "ncurses"
 
   def install
-    system "make", "install" 
+    system "make", "install", "PREFIX=#{prefix}"
   end
 
   test do
-    output = shell_output("#{bin}/nav -v")
-    assert_match version.to_s, output
+    assert_match "nav version #{version}", shell_output("#{bin}/nav -v")
   end
 end
