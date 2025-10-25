@@ -9,7 +9,7 @@ class Nav < Formula
   depends_on "ncurses"
 
   def install
-    system "make", "install", "PREFIX=#{prefix}"
+    system "make", "install", "PREFIX=#{prefix}", "VERSION=#{version}"
   end
 
   test do
