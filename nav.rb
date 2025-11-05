@@ -1,8 +1,8 @@
 class Nav < Formula
   desc "Terminal-based file navigator"
   homepage "https://github.com/mininit/nav"
-  url "https://github.com/mininit/nav/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "439a01244e121b38884c558df47c580cc2c1c8aedb2b28d1f2eee5507147bc79"
+  url "https://github.com/mininit/nav/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "753a59ffad4f1dac052fad1bd40a91476f84f10195baee18f04680011253446d"
   license "GPL-3.0-only"
   head "https://github.com/mininit/nav.git", branch: "main"
 
