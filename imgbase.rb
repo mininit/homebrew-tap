@@ -4,7 +4,6 @@ class Imgbase < Formula
   url "https://github.com/mininit/imgbase/archive/refs/tags/v0.4.0.tar.gz"
   sha256 "9108812d748ea76321873d35eb476efa3163bc7605ef70fa87a04638ebe07533"
   license "MIT"
-  head "https://github.com/mininit/imgbase.git", branch: "main"
   
   depends_on "go" => :build
 
