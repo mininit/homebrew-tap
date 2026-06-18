@@ -1,18 +1,12 @@
 class Imgbase < Formula
   desc "Encode images as base64 data URIs"
   homepage "https://github.com/mininit/imgbase"
-  url "https://github.com/mininit/imgbase.git",
-      tag:      "v0.4.0",
-      revision: "d2648caa9d4bb510744e9d0948327f4fff41c899"
+  url "https://github.com/mininit/imgbase/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "9108812d748ea76321873d35eb476efa3163bc7605ef70fa87a04638ebe07533"
   license "MIT"
   head "https://github.com/mininit/imgbase.git", branch: "main"
-
+  
   depends_on "go" => :build
-
-  livecheck do
-    url :stable
-    regex(/^v?(\d+(?:\.\d+)+)$/i)
-  end
 
   def install
     system "go", "build", *std_go_args(ldflags: "-s -w -X main.Version=#{version}")
@@ -23,3 +17,4 @@ class Imgbase < Formula
   end
 
 end
+
