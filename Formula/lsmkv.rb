@@ -4,6 +4,7 @@ class Lsmkv < Formula
   url "https://github.com/mininit/lsmkv/archive/refs/tags/v0.1.1.tar.gz"
   sha256 "1d6a7e11b4fb9e974bf177c2d9c50660044709bea9d66c2440e27b0b5fe52dfb"
   license "MIT"
+  head "https://github.com/mininit/lsmkv.git", branch: "main"
 
   depends_on "rust" => :build
 
